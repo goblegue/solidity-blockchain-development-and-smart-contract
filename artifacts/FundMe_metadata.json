@@ -11,6 +11,33 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "CallFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "MINIMUM_USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -57,20 +84,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "minimumUsd",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -87,6 +101,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -125,10 +143,10 @@
 			]
 		},
 		"Fundme.sol": {
-			"keccak256": "0xf925773bd7d2091d343cffd7ac803995d4d0a84f7c03e185c12876260ecff646",
+			"keccak256": "0x96755807daa5cf7bfeb19321e446ea40068e4f581ba11de827796e5e664a4a10",
 			"urls": [
-				"bzz-raw://0a117b4a771c5aade211538e2e4b7479d3e0569bd2479cbd46155bee13f0ac14",
-				"dweb:/ipfs/QmbkjzMdkijsDd3xrxqTbqKaPdMFeFDA7o2cdcfJtKWQhV"
+				"bzz-raw://583bc2ac6473ece60c534e33fa271114b5d5dfbbd450849c4e8280556b2ca667",
+				"dweb:/ipfs/QmNfEpsW7wSVjEZ4tANN2jZK8h8TNRELvkKAsTAjDsNUHc"
 			]
 		},
 		"PriceConverter.sol": {
